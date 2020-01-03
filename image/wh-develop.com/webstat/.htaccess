@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/wh-develop.com/webstat"
+AuthUserFile /home/wh-develop/data/etc/46628741.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
